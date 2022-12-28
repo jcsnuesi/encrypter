@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(139, 223, 248);
+}
+
+
+
+.main-title{
+
+    padding-left: 30px;
+    background-color: rgb(4, 9, 9);
+    color: white;
+    padding: 50px 50px;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: bold;   
+    text-align: left;
+
+}
+
+
+
+.error{
+    color: red;
+   
+}
+
+.encriptador {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.encriptador h1 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+
+}
+.encriptador li{
+    background-color: rgb(255, 222, 8);
+    display: inline-block;
+    height: 300px;
+    border-radius: 5px;
+    vertical-align: top;
+    padding: 20px 20px;
+    
+    
+}
+
+
+
+.encriptador textarea{
+    
+    width: 100%;
+    height: 100%;
+    text-transform: lowercase;
+    font-size: 18px;
+    border: .5px solid;
+    border-radius: 5px;
+    resize: none;
+   
+
+}
+
+.encriptador img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.textboxs:hover {
+   
+    border: .5px solid rgb(18, 145, 192);
+    border-radius: 5px;
+    
+}
+
+#info{
+     
+    margin: 10px auto;
+   
+}
+#info p {
+    display: inline-flex;
+    margin: 10px auto;
+}
+
+.btnEncryp{
+   
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 63);
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+
+}
+.btnDesencryp {
+
+    border: 1px solid rgb(238, 219, 12);
+    border-radius: 5px;
+    background-color: rgb(50, 189, 253);
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color:white;
+}
+
+.btnEncryp:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.btnDesencryp:hover {
+    background-color: rgb(229, 224, 224);
+    color: black;
+    border: 1px solid rgb(50, 189, 253);
+    font-weight: bold;
+    
+}
+
+
+.btnCopie {
+    display: block;
+    width: 100%;
+    margin-left: 4px;
+    border: 1px solid rgb(238, 219, 12);
+    border-radius: 5px;
+    background-color: rgb(50, 189, 253);
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+
+}
+
+.btnCopie:hover {
+    background-color: rgb(229, 224, 224);
+    color: black;
+    border: 1px solid rgb(50, 189, 253);
+    font-weight: bold;
+
+}
+
+
+
+hr {
+    margin-top: 150px;
+}
+
+footer p {
+
+    display: block;
+    text-align: center;
+
+}

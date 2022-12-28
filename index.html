@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encrypter Alura 2023</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="reset.css">
+
+    <script src="https://kit.fontawesome.com/f5a3bac617.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+  
+
+     
+    <header>
+            <h1 class="main-title">
+        Alura Latam 
+        </h1>  
+    </header>
+     
+     
+        <main>
+
+            <ul class="encriptador">
+                <h1>
+                        <em>Text Encrypter</em>
+                </h1>
+                
+            
+                <li>
+
+                                      
+                    <textarea class="textboxs" name="text-to-encrypt" id="box-encriptar" placeholder="Escriba el texto a encriptar..."></textarea>
+                    
+                    <div id="info">
+                    
+                        <i class="fa-solid fa-circle-info"></i>
+                        <p class="parrafo">Solo letras minisculas sin acento.</p>
+
+                    </div>
+
+                    <input class="btnEncryp" type="submit" value="Encriptar" id="btn-encripter"  onclick="hideImg()">
+                    
+                    <input class="btnDesencryp" type="submit" value="Desencriptar" id="btn-desencripter"  onclick="hideImg()">
+
+                </li>
+            
+                <li>
+                  
+                    <img  id="hideImg"  src="./img/1.png" alt="">
+
+                    <textarea class="textboxs" name="desencriptar" id="box-desencryp" placeholder="Desencriptado" readonly style="display: none;"></textarea>
+
+                    <button class="btnCopie">
+                        Copiar
+                    </button>
+
+                </li>
+              
+                
+            
+               
+
+               
+            </ul>
+            
+    
+            
+        </main>
+       
+<hr>
+    <footer class="footer-alignment">
+        <p>Created by Hector Santos · © 2021</p>
+    </footer>
+</body>
+
+<script src='text-encrypter.js'></script>
+</html>
